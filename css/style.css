@@ -129,15 +129,14 @@ Navbrand logo
     line-height: 1.5;
 }
 
-/*
+
 .hero__img{
-    display: inline-block;
-    text-align: center;
+    display:none;
 }
-*/
+
 
 .title-image {
-    width: 60%;
+   
 }
 
 .hero-heading {
@@ -331,17 +330,15 @@ FAQ
 }
 
 @media screen and (min-width: 1024px) {
-
-
-    .title-image {
-
-        margin-left: 40px;
-        margin-top: -50px;
-        position: absolute;
-        width: 40%;
-
-
+.hero__img{
+        display: flex;
     }
+.title-image{
+    width: 80%;
+    margin-left: 80px;
+    margin-top: -40px;
+   
+}
 
     #features {
 
@@ -352,6 +349,3 @@ FAQ
     }
 
 }
-
-
-@media screen and (max-width: 375px) {}
